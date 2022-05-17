@@ -324,7 +324,6 @@ export default {
         },
         //清空搜索框重置数据
         loadUsers() {
-            ;
             (this.query = ""), (this.pageNumber = 1), this.getUsers();
         },
         //分页方法
